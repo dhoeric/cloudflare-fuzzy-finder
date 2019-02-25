@@ -1,6 +1,11 @@
-[![Build Status](https://travis-ci.org/dhoeric/cloudflare-fuzzy-finder.svg?branch=master)](https://travis-ci.org/dhoeric/cloudflare-fuzzy-finder)
-
 # CloudFlare Fuzzy Finder
+[![Build Status](https://travis-ci.org/dhoeric/cloudflare-fuzzy-finder.svg?branch=master)](https://travis-ci.org/dhoeric/cloudflare-fuzzy-finder)
+[![Downloads](https://img.shields.io/pypi/dm/cloudflare-fuzzy-finder.svg)](https://pypi.python.org/pypi/cloudflare-fuzzy-finder/)
+[![Latest version](https://img.shields.io/pypi/v/cloudflare-fuzzy-finder.svg)](https://pypi.python.org/pypi/cloudflare-fuzzy-finder/)
+[![Format](https://img.shields.io/pypi/format/cloudflare-fuzzy-finder.svg)](https://pypi.python.org/pypi/cloudflare-fuzzy-finder/)
+[![Status](https://img.shields.io/pypi/status/cloudflare-fuzzy-finder.svg)](https://pypi.python.org/pypi/cloudflare-fuzzy-finder/)
+[![License](https://img.shields.io/pypi/l/cloudflare-fuzzy-finder.svg)](https://pypi.python.org/pypi/cloudflare-fuzzy-finder/)
+[![Support version](https://img.shields.io/pypi/pyversions/cloudflare-fuzzy-finder.svg)](https://pypi.python.org/pypi/cloudflare-fuzzy-finder/)
 
 `cloudflare-fuzzy-finder` aims at checking DNS record more easily. It will connect to CloudFlare's API and get all DNS records from your account, and allow to search on fuzzy finder. Once pressing <kbd>Enter</kbd> on highlighted record, it will popup to the CloudFlare website for you to manage the record on that domain.
 

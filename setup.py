@@ -1,13 +1,26 @@
 from setuptools import setup
 
 with open("README.md") as f:
-    long_description = "\n".join(f.readlines())
+    long_description = f.read()
 
 setup(
     name='cloudflare-fuzzy-finder',
-    version='0.1.1',
+    version='0.1.4',
     url='https://github.com/dhoeric/cloudflare-fuzzy-finder',
-    download_url='https://github.com/dhoeric/aws-fuzzy-finder/tarball/v0.1.1',
+    classifiers = (
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+    ),
+    download_url='https://github.com/dhoeric/cloudflare-fuzzy-finder/tarball/master',
+    license='MIT',
     author='Eric Ho',
     author_email='dho.eric@gmail.com',
     description='Find cloudflare DNS records using fuzzy search.',
