@@ -9,7 +9,7 @@
 
 `cloudflare-fuzzy-finder` aims at checking DNS record more easily. It will connect to CloudFlare's API and get all DNS records from your account, and allow to search on fuzzy finder. Once pressing <kbd>Enter</kbd> on highlighted record, it will popup to the CloudFlare website for you to manage the record on that domain.
 
-[![asciicast](https://asciinema.org/a/FpRVqUplovllYfE2jFikhpwUK.svg)](https://asciinema.org/a/FpRVqUplovllYfE2jFikhpwUK?loop=1&autoplay=1&t=5&rows=32&speed=2)
+![](https://raw.github.com/dhoeric/cloudflare-fuzzy-finder/master/demo.gif)
 
 It is inspired by [pmazurek/aws-fuzzy-finder](https://github.com/pmazurek/aws-fuzzy-finder) and built on top of [fzf](https://github.com/junegunn/fzf-bin/releases) binaries and [python-cloudflare](https://github.com/cloudflare/python-cloudflare).
 
